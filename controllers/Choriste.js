@@ -56,9 +56,9 @@ const updateListeAbsence = async (req, res) => {
 // THIS PART U SHOULD DELETE IT  {end} 
 
 // Schedule the function to run every 1 Octobre of each year
-// cron.schedule('0 1 1 10 *', () => {
+cron.schedule('0 1 1 10 *', () => {
 // Schedule the function to run every 1 minute
-cron.schedule('* * * * *', () => {
+// cron.schedule('* * * * *', () => {
   // Execute the function
   updateChoristeStatuts();
 }, {
