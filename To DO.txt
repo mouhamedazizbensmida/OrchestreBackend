@@ -1,0 +1,25 @@
+{have a look to excel method updateandcreate function}
++crud concert
+  Done:
+     add(statique+via excel)
+     read all
+  not Done:
+     update statique
+     read one
+     delete
++crud programme
+  Done:
+     add
+  Not Done:
+     read all
+     read one
+     update
+     delete
++crud oeuvre 
+  Done:
+     add
+  Not Done:
+     read all
+     read one
+     update
+     delete
